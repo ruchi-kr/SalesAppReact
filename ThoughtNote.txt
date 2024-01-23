@@ -1,0 +1,93 @@
+RUCHI KUMARI - 1st sept batch
+
+ruchi.kumari63@gmail.com
+Backend
+Module assignment 4 - Sales App Frontend
+
+
+                                     ---- This is a descriptive note of my work ----
+
+
+
+-- firstly , i created one folder named frontend and opened the VScode IDE.
+-- Then, opened terminal and wrote "npx create-react-app ." to create a demo react app.
+-- opened src folder, then deleted files and content that was not require for my project.
+-- created two folder named components and pages in src folder.
+-- In components folder, i have created one file Navbar.jsx for Navbar component.
+-- In pages folder, i have created 5 files named AddSales.jsx, Login.js, Register.jsx, TopSales.jsx and TotalRev.jsx.
+-- one file seperately for each component.
+-- then installed react-router-dom for routing purpose.
+-- added bootstrap css and js cdn links in the index.html file.
+-- also, used google font in this project. so, for this added google font link in the index.html and 
+   used it in app.css file.
+-- imported App.css in App.js.
+-- this is fully responsive web app frontend.
+-- i have properly commented my code for better understanding.
+
+-- Navbar component
+  
+  --- imported react
+  --- created Navbar functional component 
+  --- added navbar code from bootstrap, turned it into jsx format.
+  --- imported link from react-router-dom
+  --- used link tag and to attribute to add path to the navbar options.
+  --- exported Navbar component
+
+-- AddSales component
+
+  --- imported react
+  --- created AddSales functional component 
+  --- created container, row and col. inside col added the form.
+  --- used only bootstrap pre buit classes for styling purposes.
+  --- it has three input fields and one submit button.
+  --- have set the quantity and amount to type = "number".
+  --- exported AddSales component
+
+-- Login component
+  
+  --- imported react
+  --- created Login functional component 
+  --- created container, row and col. inside col added the form.
+  --- used only bootstrap pre buit classes for styling purposes.
+  --- it has two input fields and one submit button.
+  --- exported Login component
+
+-- Register component
+
+  --- imported react
+  --- created Register functional component 
+  --- created container, row and col. inside col added the form.
+  --- used only bootstrap pre buit classes for styling purposes.
+  --- it has four input fields and one submit button.
+  --- exported Register component
+
+-- TopSales component
+  
+  --- imported react
+  --- created TopSales functional component 
+  --- created container, row and col. inside col added the table.
+  --- table has hover effect.
+  --- table returns sales details.  
+  --- exported TopSales component
+
+-- TotalRev component
+
+  --- imported react
+  --- created TotalRev functional component 
+  --- returning today's total revenue in simple statement.
+  --- exported TotalRev component
+
+-- after creating all the required component, i imported all the components in App.js
+   which is furthur rendered in index.js for final rendering.
+-- imported browser router as router, routes and route in App.js from react-router-dom for performing routing.
+
+-- functional App component
+
+  --- used router, routes and route and provided path and element properly.
+  --- after this, page won't reload when a peron will try to navigate to another page.
+  --- exported app component and imported it in index.js .
+
+
+-- i have deleted node modules before submitting my project, so please open terminal and install the same using 
+
+      command - npm i
